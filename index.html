@@ -3,10 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz App</title>
+    <title>Zayyan Mustafa's TypeScript Projects</title>
+    <!-- Icon -->
+    <link rel="icon" type="image/jpeg" href="Images/icon.jpeg">
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Flowbite CDN -->
+    <link href="https://unpkg.com/flowbite@1.6.6/dist/flowbite.min.css" rel="stylesheet">
+    <style>
+        .bg-blue-primary {
+            background-color: #007bff;
+        }
+        .text-blue-primary {
+            color: #007bff;
+        }
+        .bg-purple-primary {
+            background-color: #6f42c1;
+        }
+        .text-purple-primary {
+            color: #6f42c1;
+        }
+        .bg-red-primary {
+            background-color: #dc3545;
+        }
+        .text-red-primary {
+            color: #dc3545;
+        }
+        .bg-gray-light {
+            background-color: #f8f9fa;
+        }
+        .text-gray-dark {
+            color: #343a40;
+        }
+    </style>
 </head>
-<body>
+
+<body class="font-sans bg-gray-light text-gray-dark m-0 p-0">
+    <header class="bg-blue-primary text-white text-center py-8 shadow-lg">
+        <h1 class="text-4xl font-extrabold">Zayyan Mustafa's TypeScript Projects</h1>
+    </header>
     
-    <a href="./Quiz App/Public/index.html">Click Hear</a>
+    <main class="max-w-4xl mx-auto mt-12 px-6">
+        <section class="bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4 text-purple-primary">Featured Projects</h2>
+            <ul class="list-disc list-inside space-y-4">
+                <li>
+                    <a href="Quiz App/Public/index.html" class="block p-4 bg-gray-100 rounded-lg border border-transparent hover:border-blue-primary hover:bg-gray-200 transition duration-300">
+                        <h3 class="text-xl font-semibold text-gray-dark">Qiuz</h3>
+                        <p class="text-gray-600">The Quiz App is a simple web application designed to create and manage quizzes. Using TypeScript for functionality and Tailwind CSS for styling, this app provides an interactive and user-friendly experience.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="Project2/index.html" class="block p-4 bg-gray-100 rounded-lg border border-transparent hover:border-red-primary hover:bg-gray-200 transition duration-300">
+                        <h3 class="text-xl font-semibold text-gray-dark">Finance Tracker</h3>
+                        <p class="text-gray-600">Track your expenses and income with ease.</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="bg-purple-primary text-white text-center py-4 mt-12">
+        <p>&copy; 2024 Zayyan Mustafa</p>
+    </footer>
+
+    <!-- Flowbite JavaScript -->
+    <script src="https://unpkg.com/flowbite@1.6.6/dist/flowbite.min.js"></script>
 </body>
 </html>
